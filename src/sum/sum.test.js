@@ -9,5 +9,5 @@ test('adds 0 + 0 to equal 0', () => {
 });
 
 test('adds 100 + 0 to equal 100', () => {
-    expect(sum(100, 0)).toBe(0);
+    expect(sum(100, 0)).toBe(100);
 });
